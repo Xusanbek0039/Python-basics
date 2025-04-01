@@ -29,6 +29,8 @@
 
 
 
+
+
 # math – matematik amallar uchun
 
 # random – tasodifiy sonlar yaratish uchun
@@ -49,7 +51,7 @@
 
 
 # 3-code
-# import math
+# import math 
 # print(math.sqrt(16))  # 4.0
 
 
@@ -112,12 +114,12 @@
 
 
 # # 5-code
-# import random
+import random
 
-# # 1 dan 10 gacha tasodifiy butun son
+# 1 dan 10 gacha tasodifiy butun son
 # print(random.randint(1, 10))
 
-# # 0 va 1 orasida tasodifiy haqiqiy son
+# 0 va 1 orasida tasodifiy haqiqiy son
 # print(random.random())
 
 # # Berilgan oraliqda tasodifiy haqiqiy son (5 dan 15 gacha)
@@ -133,7 +135,7 @@
 # print(raqamlar)
 
 # # 10 dan 100 gacha 3 ta tasodifiy son olish
-# print(random.sample(range(10, 100), 3))
+# print(random.sample(range(10, 100), 5))
 
 # # 0 va 1 orasida tasodifiy son chiqarib, ehtimollikni tekshirish
 # if random.random() > 0.5:
@@ -210,12 +212,12 @@
 
 
 # 7-code
-# import os
+import os
 
-# # Joriy ishchi katalogni olish
+# Joriy ishchi katalogni olish
 # print("Joriy katalog:", os.getcwd())
 
-# # Yangi papka yaratish
+# Yangi papka yaratish
 # os.mkdir("yangi_papka")
 # print("Papka yaratildi!")
 
@@ -229,6 +231,8 @@
 # # Fayl hajmini olish (baytlarda)
 # if os.path.exists("test.txt"):
 #     print("Fayl hajmi:", os.path.getsize("test.txt"), "bayt")
+# else:
+#     print("Fayl mavjud emas!")
 
 # # Joriy katalogdagi fayl va papkalarni olish
 # print("Fayllar:", os.listdir())
@@ -240,17 +244,17 @@
 # print("Foydalanuvchi nomi:", os.getenv("USERNAME") or os.getenv("USER"))
 
 # # Dasturdan chiqish
-# # os.exit(0)  # Ushbu qatorda dastur to‘xtaydi
+# os.exit(0)  # Ushbu qatorda dastur to‘xtaydi
 
 # # Buyruq qatori komandalarini bajarish
 # os.system("echo Salom, dunyo!")
 
 
-# Fayl nomini belgilang
+# # Fayl nomini belgilang
 # import os
 
 # # Fayl yo'lini olish va tekshirish
-# fayl_nomi = r"C:\Users\User\OneDrive\Desktop\Python-asoslar\19-dars Modullar\logo.png"
+# fayl_nomi = r"F:\Git Hub\Python-asoslar\19-dars Modullar\logo.png"
 
 # if os.path.exists(fayl_nomi):
 #     print("Fayl mavjud! Ochilmoqda...")
@@ -298,6 +302,6 @@
 
 
 # Qiziq code ishga tushursangiz VS Code yopiladi fayllariz saqlanganiga ishonch xosil qiling!!!
-# import os
+import os
 
-# os.system("taskkill /IM code.exe /F")  # VS Code-ni yopish
+os.system("taskkill /IM code.exe /F")  # VS Code-ni yopish
