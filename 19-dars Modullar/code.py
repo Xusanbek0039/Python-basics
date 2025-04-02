@@ -19,7 +19,7 @@
 
 # 2-code
 # import salom
-# print(salom_ber("Husan"))
+# print(salom.salom_ber("Husan"))
 
 
 
@@ -71,9 +71,9 @@
 
 
 # 4-code
-# import math
+import math
 
-# # Doiraning yuzasini hisoblash
+# Doiraning yuzasini hisoblash
 # radius = 5
 # yuza = math.pi * math.pow(radius, 2)
 # print(f"Doira yuzasi: {yuza}")
@@ -90,8 +90,8 @@
 # # Radial burchakni gradusga aylantirish
 # print(math.degrees(math.pi))  # 180.0
 
-# # Gradusni radianlarga aylantirish
-# print(math.radians(180))  # 3.141592653589793
+# # # Gradusni radianlarga aylantirish
+# # print(math.radians(180))  # 3.141592653589793
 
 # # Sonning butun qismini olish
 # print(math.floor(3.7))  # 3
@@ -135,13 +135,14 @@ import random
 # print(raqamlar)
 
 # # 10 dan 100 gacha 3 ta tasodifiy son olish
-# print(random.sample(range(10, 100), 5))
+# print(random.sample(range(10, 100), 10))
 
 # # 0 va 1 orasida tasodifiy son chiqarib, ehtimollikni tekshirish
-# if random.random() > 0.5:
-#     print("Omadingiz keldi!")
+# n = random.random()
+# if n > 0.5:
+#     print(f"Omadingiz keldi! {n}")
 # else:
-#     print("Bu safar omad yo‘q 😅")
+#     print(f"Bu safar omad yo‘q 😅 {n}")
 
 
 
@@ -163,34 +164,34 @@ import random
 # 6-code
 # from datetime import datetime, timedelta
 
-# # Joriy sana va vaqt
+# # # Joriy sana va vaqt
 # hozir = datetime.now()
-# print("Hozirgi vaqt:", hozir)
+# # print("Hozirgi vaqt:", hozir)
 
-# # Faqat sana yoki vaqtni olish
-# print("Bugungi sana:", hozir.date())
-# print("Joriy vaqt:", hozir.time())
+# # # Faqat sana yoki vaqtni olish
+# # print("Bugungi sana:", hozir.date())
+# # print("Joriy vaqt:", hozir.time())
 
-# # Belgilangan formatda vaqt chiqarish
-# print("Formatlangan vaqt:", hozir.strftime("%Y-%m-%d %H:%M:%S"))
+# # # Belgilangan formatda vaqt chiqarish
+# # print("Formatlangan vaqt:", hozir.strftime("%Y-%m-%d %H:%M:%S"))
 
-# # Belgilangan sanani yaratish
-# tugilgan_kun = datetime(2004, 1, 30)
-# print("Tug‘ilgan kun:", tugilgan_kun)
+# # # Belgilangan sanani yaratish
+# tugilgan_kun = datetime(2012, 10, 22)
+# # print("Tug‘ilgan kun:", tugilgan_kun)
 
-# # Oradan 7 kun o'tkazish
-# bir_hafta_keyin = hozir + timedelta(days=7)
-# print("Bir hafta keyin:", bir_hafta_keyin.date())
+# # # Oradan 7 kun o'tkazish
+# # bir_hafta_keyin = hozir + timedelta(days=7)
+# # print("Bir hafta keyin:", bir_hafta_keyin.date())
 
-# # Oradan 3 soat oldin
-# uch_soat_oldin = hozir - timedelta(hours=3)
-# print("Uch soat oldin:", uch_soat_oldin.time())
+# # # Oradan 3 soat oldin
+# # uch_soat_oldin = hozir - timedelta(hours=3)
+# # print("Uch soat oldin:", uch_soat_oldin.time())
 
-# # Ikki sana orasidagi farq
-# farq = hozir - tugilgan_kun
-# print("Yashagan kunlaringiz:", farq.days)
+# # # Ikki sana orasidagi farq
+# # farq = hozir - tugilgan_kun
+# # print("Yashagan kunlaringiz:", farq.days)
 
-# # Yangi yilgacha qolgan vaqt
+# # # Yangi yilgacha qolgan vaqt
 # yangi_yil = datetime(hozir.year + 1, 1, 1)
 # qolgan_vaqt = yangi_yil - hozir
 # print(f"Yangi yilgacha {qolgan_vaqt.days} kun qoldi!")
@@ -254,7 +255,7 @@ import os
 # import os
 
 # # Fayl yo'lini olish va tekshirish
-# fayl_nomi = r"F:\Git Hub\Python-asoslar\19-dars Modullar\logo.png"
+# fayl_nomi = r"C:\Users\User\OneDrive\Desktop\Python-asoslar\19-dars Modullar\logo.png"
 
 # if os.path.exists(fayl_nomi):
 #     print("Fayl mavjud! Ochilmoqda...")
