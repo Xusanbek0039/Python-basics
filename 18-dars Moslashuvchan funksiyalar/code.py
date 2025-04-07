@@ -11,7 +11,7 @@
 # def yigindi(*son):
 #     return sum(son)
 
-# print(yigindi(1, 2, 3))      # Natija: 6
+# print(yigindi(1, 2, 3, 5))      # Natija: 6
 # print(yigindi(10, 20, 30, 40))  # Natija: 100
 
 
@@ -26,7 +26,7 @@
 #         print(f"{kalit}: {qiymat}")
 
 # # Funksiyani chaqiramiz
-# foydalanuvchi_malumotlari(ism="Ali", yosh=25, shahar="Toshkent")
+# foydalanuvchi_malumotlari(ism="Ali", yosh=25, shahar="Toshkent", Familiya="O'tkirov")
 
 
 
@@ -45,7 +45,7 @@
 #         print(f"{kalit}: {qiymat}")
 
 # # Funksiyani chaqiramiz
-# mahsulot_tavsifi("Telefon", "Yuqori sifat", "Tezkor ishlash", rang="Qora", narx=500)
+# mahsulot_tavsifi("Telefon", "Yuqori sifat", "Tezkor ishlash", rang="Qora", narx="500$")
 
 
 
@@ -57,17 +57,19 @@
 
 
 
-# 4-code 
+# # 4-code 
 # def kopaytir(*args):
 #     """Berilgan sonlarni ko‘paytirib natijani qaytaradi"""
 #     natija = 1
 #     for son in args:
-#         natija *= son  # Har bir sonni natijaga ko‘paytiramiz
+#         natija = son * natija  # Har bir sonni natijaga ko‘paytiramiz
 #     return natija
 
 # print(kopaytir(2, 3, 4))  # Natija: 24
 # print(kopaytir(5, 10))    # Natija: 50
 # print(kopaytir(1, 2, 3, 4, 5,5))  # Natija: 120
+
+
 
 
 

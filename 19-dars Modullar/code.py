@@ -4,7 +4,7 @@
 # YouTube: https://www.youtube.com/@it_creative
 # GitHub: https://github.com/Xusanbek0039
 
-# 1-code
+# # 1-code
 # from salom import salom_ber
 # print(salom_ber("Husan"))
 
@@ -71,7 +71,7 @@
 
 
 # 4-code
-import math
+# import math
 
 # Doiraning yuzasini hisoblash
 # radius = 5
@@ -85,7 +85,7 @@ import math
 # print(math.factorial(5))  # 120
 
 # # Darajaga oshirish (2^3)
-# print(math.pow(2, 3))  # 8.0
+# print(math.pow(2, 100))  # 8.0
 
 # # Radial burchakni gradusga aylantirish
 # print(math.degrees(math.pi))  # 180.0
@@ -135,7 +135,7 @@ import random
 # print(raqamlar)
 
 # # 10 dan 100 gacha 3 ta tasodifiy son olish
-# print(random.sample(range(10, 100), 10))
+# print(random.sample(range(10, 100), 2))
 
 # # 0 va 1 orasida tasodifiy son chiqarib, ehtimollikni tekshirish
 # n = random.random()
@@ -164,20 +164,20 @@ import random
 # 6-code
 # from datetime import datetime, timedelta
 
-# # # Joriy sana va vaqt
+# # Joriy sana va vaqt
 # hozir = datetime.now()
-# # print("Hozirgi vaqt:", hozir)
+# print("Hozirgi vaqt:", hozir)
 
 # # # Faqat sana yoki vaqtni olish
-# # print("Bugungi sana:", hozir.date())
-# # print("Joriy vaqt:", hozir.time())
+# print("Bugungi sana:", hozir.date())
+# print("Joriy vaqt:", hozir.time())
 
 # # # Belgilangan formatda vaqt chiqarish
-# # print("Formatlangan vaqt:", hozir.strftime("%Y-%m-%d %H:%M:%S"))
+# print("Formatlangan vaqt:", hozir.strftime("%Y-%m-%d %H:%M"))
 
 # # # Belgilangan sanani yaratish
-# tugilgan_kun = datetime(2012, 10, 22)
-# # print("Tug‘ilgan kun:", tugilgan_kun)
+# tugilgan_kun = datetime(2008, 4, 25)
+# print("Tug‘ilgan kun:", tugilgan_kun)
 
 # # # Oradan 7 kun o'tkazish
 # # bir_hafta_keyin = hozir + timedelta(days=7)
@@ -188,8 +188,8 @@ import random
 # # print("Uch soat oldin:", uch_soat_oldin.time())
 
 # # # Ikki sana orasidagi farq
-# # farq = hozir - tugilgan_kun
-# # print("Yashagan kunlaringiz:", farq.days)
+# farq = hozir - tugilgan_kun
+# print("Yashagan kunlaringiz:", farq.days)
 
 # # # Yangi yilgacha qolgan vaqt
 # yangi_yil = datetime(hozir.year + 1, 1, 1)
