@@ -1,11 +1,9 @@
-# kutubxona.py
-
 from mahsulotlar import mahsulotlar
 
 def buyurtma_ber():
     narxlar = []  # Tanlangan mahsulotlarning narxlari ro'yxati
-    
-    while True:
+    ishora = True
+    while ishora:
         # Foydalanuvchidan mahsulot nomini so'rash
         mahsulot_nomi = input("Mahsulot nomini kiriting: ").lower().strip()
         
@@ -19,10 +17,13 @@ def buyurtma_ber():
         
         # Yana mahsulot tanlashni sorash
         javob = input("Yana mahsulot tanlaysizmi? (ha/yo'q): ").lower()
-        if javob != 'ha':
-            break
-
+        if javob == "yo'q" or javob =="no":
+            ishora = False
+        elif javob == "ha" or javob == "yes":
+            continue
+        else:
+            ishora = False
     
     # Umumiy to'lov miqdorini hisoblash
     jami_summa = sum(narxlar)
-    print(f"Siz uchun to'lov miqdori: {jami_summa} so'm")
+    print(f"\nSiz uchun to'lov miqdori: {jami_summa} so'm\n")
