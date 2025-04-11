@@ -2,7 +2,7 @@
 
 from mahsulotlar import mahsulotlar
 
-def main():
+def buyurtma_ber():
     narxlar = []  # Tanlangan mahsulotlarning narxlari ro'yxati
     
     while True:
@@ -25,4 +25,3 @@ def main():
     # Umumiy to'lov miqdorini hisoblash
     jami_summa = sum(narxlar)
     print(f"Siz uchun to'lov miqdori: {jami_summa} so'm")
-
