@@ -5,8 +5,8 @@
 # GitHub: https://github.com/Xusanbek0039
 
 # # 1-code
-# from salom import salom_ber
-# print(salom_ber("Husan"))
+from salom import salom_ber
+print(salom_ber("Husan"))
 
 
 
@@ -114,7 +114,7 @@
 
 
 # # 5-code
-import random
+# import random
 
 # 1 dan 10 gacha tasodifiy butun son
 # print(random.randint(1, 10))
@@ -213,7 +213,7 @@ import random
 
 
 # 7-code
-import os
+# import os
 
 # Joriy ishchi katalogni olish
 # print("Joriy katalog:", os.getcwd())
@@ -303,6 +303,8 @@ import os
 
 
 # Qiziq code ishga tushursangiz VS Code yopiladi fayllariz saqlanganiga ishonch xosil qiling!!!
-import os
+# import os
 
-os.system("taskkill /IM code.exe /F")  # VS Code-ni yopish
+# os.system("taskkill /IM code.exe /F")  # VS Code-ni yopish
+# =======
+# os.system("taskkill /IM code.exe /F")  # VS Code-ni yopish
