@@ -7,7 +7,7 @@ def buyurtma_ber():
     
     while True:
         # Foydalanuvchidan mahsulot nomini so'rash
-        mahsulot_nomi = input("Mahsulot nomini kiriting: ").lower()
+        mahsulot_nomi = input("Mahsulot nomini kiriting: ").lower().strip()
         
         # Agar mahsulot mavjud bo'lsa narxlar ro'yxatiga qo'shiladi
         if mahsulot_nomi in mahsulotlar:
@@ -21,6 +21,7 @@ def buyurtma_ber():
         javob = input("Yana mahsulot tanlaysizmi? (ha/yo'q): ").lower()
         if javob != 'ha':
             break
+
     
     # Umumiy to'lov miqdorini hisoblash
     jami_summa = sum(narxlar)
