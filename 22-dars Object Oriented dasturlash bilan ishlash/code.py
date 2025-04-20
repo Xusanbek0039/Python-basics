@@ -1,16 +1,15 @@
 # # 1-misol: Oddiy class va obyekt
+class Talaba:
+    def __init__(self, ism, yosh):
+        self.ism = ism
+        self.yosh = yosh
 
-# class Talaba:
-#     def __init__(self, ism, yosh):
-#         self.ism = ism
-#         self.yosh = yosh
 
-#     def salom_ber(self):
-#         print(f"Salom, mening ismim {self.ism}, yoshim {self.yosh}da.")
+# Obyekt yaratish
+talaba1 = Talaba("Ali", 20)
+talaba1.salom_ber()
 
-# # Obyekt yaratish
-# talaba1 = Talaba("Ali", 20)
-# talaba1.salom_ber()
+
 
 
 
