@@ -1,4 +1,4 @@
-# # 1-misol: Oddiy class va obyekt
+# # # 1-misol: Oddiy class va obyekt
 # class Talaba:
 #     def __init__(self, ism, yosh):
 #         self.ism = ism
@@ -7,7 +7,7 @@
 #     def salom_ber(self):
 #         print(f"Salom, mening ismim {self.ism}, yoshim {self.yosh}da.")
 
-# # Obyekt yaratish
+# # # Obyekt yaratish
 # talaba1 = Talaba("Ali", 20)
 # talaba1.salom_ber()
 
@@ -21,7 +21,9 @@
 
 
 
-# # 2-misol: Bir nechta obyektlar
+
+
+# # # 2-misol: Bir nechta obyektlar
 
 # talaba2 = Talaba("Laylo", 19)
 # talaba3 = Talaba("Bekzod", 22)
@@ -62,8 +64,9 @@
 #     def yuzani_hisobla(self):
 #         return 3.14 * self.radius ** 2
 
-# doira1 = Doira(5)
-# print("Doira yuzi:", doira1.yuzani_hisobla())
+# x = int(input("Radiusni kiriting: "))
+# doira1 = Doira(x)
+# print("Doira yuzi: ", doira1.yuzani_hisobla())
 
 
 
@@ -120,3 +123,4 @@
 
 # for talaba in talabalar:
 #     talaba.salom_ber()
+#     talaba.info()
