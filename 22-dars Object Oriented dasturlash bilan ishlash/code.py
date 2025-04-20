@@ -4,6 +4,8 @@ class Talaba:
         self.ism = ism
         self.yosh = yosh
 
+    def salom_ber(self):
+        print(f"Salom, mening ismim {self.ism}, yoshim {self.yosh}da.")
 
 # Obyekt yaratish
 talaba1 = Talaba("Ali", 20)
