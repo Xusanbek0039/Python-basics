@@ -7,7 +7,7 @@
 #     def salom_ber(self):
 #         print(f"Salom, mening ismim {self.ism}, yoshim {self.yosh}da.")
 
-# # # Obyekt yaratish
+# # # # # Obyekt yaratish
 # talaba1 = Talaba("Ali", 20)
 # talaba1.salom_ber()
 
@@ -23,7 +23,7 @@
 
 
 
-# # # 2-misol: Bir nechta obyektlar
+# # # # 2-misol: Bir nechta obyektlar
 
 # talaba2 = Talaba("Laylo", 19)
 # talaba3 = Talaba("Bekzod", 22)
@@ -59,7 +59,7 @@
 
 # class Doira:
 #     def __init__(self, radius):
-#         self.radius = radius
+#         self.r = radius
 
 #     def yuzani_hisobla(self):
 #         return 3.14 * self.radius ** 2
@@ -97,10 +97,21 @@
 #     def info(self):
 #         print(f"{self.ism} {self.kurs}-kurs talabasi")
 
+# class Oqituvchi(Inson):
+#     def __init__(self, ism, working):
+#         super().__init__(ism)
+#         self.working = working
+
+#     def info(self):
+#         print(f"{self.ism} {self.working}-kurs o'qituvchisi.")
+
+
+
+# oqituvchi = Oqituvchi("Botir","Ona tili")
 # talaba4 = Talaba("Aziz", 3)
 # talaba4.salom_ber()
 # talaba4.info()
-
+# oqituvchi.info()
 
 
 
