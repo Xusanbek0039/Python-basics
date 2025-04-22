@@ -1,4 +1,4 @@
-# # # 1-misol: Oddiy class va obyekt
+# # 1-misol: Oddiy class va obyekt
 # class Talaba:
 #     def __init__(self, ism, yosh):
 #         self.ism = ism
@@ -57,14 +57,15 @@
 
 # # 4-misol: Hisob-kitobli metod
 
+
 # class Doira:
-#     def __init__(self, radius):
-#         self.r = radius
+#     def __init__(self, *radius):
+#         self.radius = radius
 
 #     def yuzani_hisobla(self):
 #         return 3.14 * self.radius ** 2
 
-# x = int(input("Radiusni kiriting: "))
+# x = int(5)
 # doira1 = Doira(x)
 # print("Doira yuzi: ", doira1.yuzani_hisobla())
 
@@ -79,15 +80,14 @@
 
 
 
-
 # # 5-misol: Vorislik (ya'ni class boshqa classdan meros oladi)
 
-# class Inson:
-#     def __init__(self, ism):
-#         self.ism = ism
+class Inson:
+    def __init__(self, ism):
+        self.ism = ism
 
-#     def salom_ber(self):
-#         print(f"Salom, men {self.ism}")
+    def salom_ber(self):
+        print(f"Salom, men {self.ism}")
 
 # class Talaba(Inson):
 #     def __init__(self, ism, kurs):
