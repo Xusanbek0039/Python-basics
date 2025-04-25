@@ -27,7 +27,7 @@ class Book:
 book1 = Book()
 book1.set_title("Oq kema")
 book1.set_author("Chingiz Aytmatov")
-book1.set_pages(150)
+# book1.set_pages(150)
 
 print("Kitob nomi:", book1.get_title())
 print("Muallifi:", book1.get_author())
