@@ -34,18 +34,3 @@
 ● Natijani print() qilsin
 ● Dastur __name__ == "__main__" orqali ishga tushsin
 """
-
-
-# class Shape:
-#     def __init__(self,input_shape):
-#         self.input_shape = input_shape
-
-#     def main(self):
-#         self.input_shape = input("triangle yoki square kiritishini: ")
-#     def check_shape(self):
-#         if self.input_shape == "triangle":
-#             print("triangle shakli")
-#         elif self.input_shape == "square":
-#             print("square shakli")
-#         else:
-#             print("nomalum shakil")
