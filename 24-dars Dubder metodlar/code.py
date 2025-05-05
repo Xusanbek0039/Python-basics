@@ -160,11 +160,11 @@
 #         self.oquvchilar = ["Ali", "Laylo", "Sardor"]
 
 #     def __sub__(self, ism):
-#         self.oquvchilar.remove(ism)
+#         del self.oquvchilar[ism] 
 #         return self.oquvchilar
 
 # sinf = Sinf()
-# print(sinf - "Laylo")
+# print(sinf - 1)
 
 
 
