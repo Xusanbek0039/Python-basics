@@ -29,11 +29,10 @@
 #         self.yosh = yosh
 
 #     def __repr__(self):
-#         return f"Oquvchi('{self.ism}', {self.yosh})"
+#         return f"O'quvchi: {self.ism}, Yosh: {self.yosh} yosh"
 
 # o1 = Oquvchi("Ali", 14)
 # print(repr(o1))
-
 
 
 
@@ -133,8 +132,8 @@
 #     def __add__(self, other):
 #         return f"{self.ism} va {other.ism} guruh bo‘ldi."
 
-# o1 = Oquvchi("Ali")
-# o2 = Oquvchi("Sardor")
+# o1 = Oquvchi(10)
+# o2 = Oquvchi(11)
 # print(o1 + o2)
 
 
@@ -161,11 +160,11 @@
 #         self.oquvchilar = ["Ali", "Laylo", "Sardor"]
 
 #     def __sub__(self, ism):
-#         self.oquvchilar.remove(ism)
+#         del self.oquvchilar[ism] 
 #         return self.oquvchilar
 
 # sinf = Sinf()
-# print(sinf - "Laylo")
+# print(sinf - 1)
 
 
 
