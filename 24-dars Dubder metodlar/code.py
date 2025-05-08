@@ -54,7 +54,7 @@
 #         return self.oquvchilar[index]
 
 # sinf = Sinf()
-# print(sinf[1])
+# print(sinf[0])
 
 
 
