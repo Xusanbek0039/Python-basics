@@ -8,9 +8,9 @@
 
 
 # Faylni o‘qish rejimida ochamiz
-# with open('malumot.txt', 'r', encoding='utf-8') as fayl:
-#     matn = fayl.read()
-#     print(matn)
+with open('malumot.txt', 'r', encoding='utf-8') as fayl:
+    matn = fayl.read()
+    print(matn)
 
 
 
