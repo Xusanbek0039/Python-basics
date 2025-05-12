@@ -8,9 +8,9 @@
 
 
 # Faylni o‘qish rejimida ochamiz
-with open('malumot.txt', 'r', encoding='utf-8') as fayl:
-    matn = fayl.read()
-    print(matn)
+# with open('malumot.txt', 'r', encoding='utf-8') as fayl:
+#     matn = fayl.read()
+#     print(matn)
 
 
 
@@ -91,6 +91,7 @@ with open('malumot.txt', 'r', encoding='utf-8') as fayl:
 
 
 
+
 # import pickle
 
 # # Fayldan Python obyektini qayta tiklaymiz
@@ -100,6 +101,15 @@ with open('malumot.txt', 'r', encoding='utf-8') as fayl:
 
 
 
+
+
+
+# with open('malumot.json', 'w', encoding='utf-8') as fayl:
+#     fayl.write("Bu json yozuv!")
+
+# with open('malumot.json', 'r', encoding='utf-8') as fayl:
+#     matn = fayl.read()
+#     print(matn)
 
 
 
