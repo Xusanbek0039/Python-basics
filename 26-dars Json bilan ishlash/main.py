@@ -9,6 +9,7 @@ Youtube: https://youtube.com/@it_creative
 
 
 # # 1. JSON stringni Python obyektiga aylantirish (json.loads())
+
 # import json
 
 # json_str = '{"name": "Husan", "age": 20, "languages": ["Python", "JavaScript"]}'
@@ -61,7 +62,7 @@ Youtube: https://youtube.com/@it_creative
 
 
 
-# # 3. JSON faylga yozish (json.dump())
+# # # 3. JSON faylga yozish (json.dump())
 # import json
 
 # user = {
@@ -122,16 +123,16 @@ Youtube: https://youtube.com/@it_creative
 
 
 
-# # 5. Faylda bir nechta foydalanuvchi yozuvlari bilan ishlash
+# # # 5. Faylda bir nechta foydalanuvchi yozuvlari bilan ishlash
 # import json
 
-# users = [
-#     {"name": "Ali", "score": 85},
-#     {"name": "Vali", "score": 92}
-# ]
+# # users = [
+# #     {"name": "Ali", "score": 85},
+# #     {"name": "Vali", "score": 92}
+# # ]
 
-# with open("results.json", "w") as f:
-#     json.dump(users, f, indent=2)
+# # with open("results.json", "w") as f:
+# #     json.dump(users, f, indent=2)
 
 # # O‘qish
 # with open("results.json", "r") as f:
@@ -207,5 +208,7 @@ Youtube: https://youtube.com/@it_creative
 
 # try:
 #     data = json.loads(invalid_json)
+
+    
 # except json.JSONDecodeError as e:
 #     print("Xato:", e)
