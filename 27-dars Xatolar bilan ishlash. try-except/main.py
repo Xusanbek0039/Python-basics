@@ -3,9 +3,11 @@ Mentor: Suyunov Husan
 YouTube: https://youtube.com/@it_creative
 Web: https://praktikum.itc.uz
 GitHub: https://github.com/xusanbek0039
+Mavzu: Python xatoliklar bilan ishlash, try except
 """
 
 # # 1-kod
+
 # try:
 #     son = int(input("Son kiriting: "))
 #     print("Natija:", 10 / son)
@@ -23,14 +25,17 @@ GitHub: https://github.com/xusanbek0039
 
 
 
+
+
+
 # # 2-kod
 # try:
 #     son = int(input("Son kiriting: "))
 #     print("Natija:", 10 / son)
-# except ZeroDivisionError:
-#     print("0 ga bo'lish mumkin emas!")
 # except ValueError:
 #     print("Faqat butun son kiriting!")
+
+
 
 
 
@@ -182,6 +187,6 @@ GitHub: https://github.com/xusanbek0039
 # # 8-kod
 # try:
 #     import math
-#     print(math.sqrt(-1))
-# except ValueError:
+#     print(math.sqrt(-10))
+# except:
 #     print("Manfiy sonning ildizi yo'q.")
