@@ -28,6 +28,8 @@ Mavzu: Python xatoliklar bilan ishlash, try except
 
 
 
+
+
 # # 2-kod
 # try:
 #     son = int(input("Son kiriting: "))
