@@ -11,10 +11,9 @@ Mavzu: Python xatoliklar bilan ishlash, try except
 # try:
 #     son = int(input("Son kiriting: "))
 #     print("Natija:", 10 / son)
+
 # except:
 #     print("Xatolik yuz berdi.")
-
-
 
 
 
@@ -138,7 +137,7 @@ Mavzu: Python xatoliklar bilan ishlash, try except
 #     a = int(input("a ni kiriting: "))
 #     b = int(input("b ni kiriting: "))
 #     print("Natija:", a / b)
-# except (ValueError, ZeroDivisionError, FileNotFoundError, ModuleNotFoundError) as e:
+# except (SyntaxError, ValueError, ZeroDivisionError, FileNotFoundError, ModuleNotFoundError) as e:
 #     print("Xatolik:", e)
 
 
