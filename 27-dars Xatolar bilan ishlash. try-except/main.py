@@ -133,11 +133,12 @@ Mavzu: Python xatoliklar bilan ishlash, try except
 
 
 # # 6-kod
+
 # try:
 #     a = int(input("a ni kiriting: "))
 #     b = int(input("b ni kiriting: "))
 #     print("Natija:", a / b)
-# except (ValueError, ZeroDivisionError) as e:
+# except (ValueError, ZeroDivisionError, FileNotFoundError, ModuleNotFoundError) as e:
 #     print("Xatolik:", e)
 
 
