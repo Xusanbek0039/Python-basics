@@ -9,6 +9,7 @@ class TestTalaba(unittest.TestCase):
         """
         self.talaba = Talaba("Ali", 20)
 
+
     def test_ism(self):
         """
         Talaba obyektining 'ism' atributi to'g'ri saqlanganligini tekshirish.
@@ -26,7 +27,7 @@ class TestTalaba(unittest.TestCase):
         Talabaning salom_ber() metodining qaytargan natijasi to'g'ri ekanligini tekshirish.
         """
         natija = self.talaba.salom_ber()
-        self.assertEqual(natija, "Salom, men Aliman!")
+        self.assertEqual(natija, "Salom, men Ali man!")
 
 if __name__ == "__main__":
     unittest.main()
