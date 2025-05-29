@@ -3,6 +3,7 @@
 import unittest 
 from my_functions import toq_mi  # Test qilinadigan funksiya import qilinadi
 
+
 class TestToqMi(unittest.TestCase):
     def test_toq_son(self):
         # 5 soni toq, shuning uchun True bo'lishi kerak
