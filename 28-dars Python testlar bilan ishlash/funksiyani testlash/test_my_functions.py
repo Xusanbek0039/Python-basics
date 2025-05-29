@@ -1,6 +1,6 @@
 # test_my_functions.py
 
-import unittest
+import unittest 
 from my_functions import toq_mi  # Test qilinadigan funksiya import qilinadi
 
 class TestToqMi(unittest.TestCase):
