@@ -1,6 +1,28 @@
 # pip install googletrans==4.0.0-rc1
 # google_translate.py
+"""
+# Envdan chiqish
+deactivate
 
+# Eskisini o'chiring (Windowsda)
+rmdir /s /q .venv
+
+# Yoki PowerShell-da
+Remove-Item -Recurse -Force .venv
+
+# Python 3.10 yangi muhit yaratish
+py -3.10 -m venv .venv
+
+# Virtual muhitni faollashtiring
+.\.venv\Scripts\activate
+
+# Pip-ni yangilang va kerakli paketlarni o'rnating
+pip install --upgrade pip
+pip install googletrans==4.0.0-rc1
+
+
+
+"""
 from googletrans import Translator, LANGUAGES
 
 def show_supported_languages():
