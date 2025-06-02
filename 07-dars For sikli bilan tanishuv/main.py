@@ -136,9 +136,3 @@
 
 
 
-sonlar = []
-for n in range(5):
-    sonlar.append(int(input(f"{n+1}-sonni kiriting: ")))
-
-for son in sonlar:
-    print(f"{son} ning kvadrati {son**2} ga teng")
