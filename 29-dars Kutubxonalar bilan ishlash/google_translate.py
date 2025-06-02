@@ -1,5 +1,6 @@
 # pip install googletrans==4.0.0-rc1
 # google_translate.py
+
 """
 # Envdan chiqish
 deactivate
@@ -23,6 +24,7 @@ pip install googletrans==4.0.0-rc1
 
 
 """
+
 from googletrans import Translator, LANGUAGES
 
 def show_supported_languages():
