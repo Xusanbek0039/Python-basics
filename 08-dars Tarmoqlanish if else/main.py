@@ -1,7 +1,7 @@
 # # Kod_1
 # avtolar = ['audi','bmw','volvo','kia','hyundai']
 # for avto in avtolar: # avtolar ichidadi har bir avto uchun ...
-#    if avto == 'bmw':  # ... agar avto bmw ga teng bo'lsa ...
+#    if avto == 'bmw' or avto == "kia":  # ... agar avto bmw ga teng bo'lsa ...
 #        print(avto.upper()) # avto nomini hamma harflarini katta bilan yoz.
 #    else: # aks holda ...
 #        print(avto.title()) # avto nomini faqat birinchi harfini katta bilann yoz.
@@ -36,11 +36,10 @@
 
 # # Kod_3
 # ism = input('Ismingiz nima?\t>>>') # Foydalanuvchi ismini so'raymiz
-# if ism.lower() == 'ali': # Agar ism Aliga teng bo'lmasa ...
-#    print(f"Uzr, {ism.title()} biz Alini kutayapmiz.") # quyidagi xabar chiqadi
-# else:
+# if ism.lower().strip() == 'ali': # Agar ism Aliga teng bo'lmasa ...
 #     print("Salom, Ali")
-
+# else:
+#    print(f"Uzr, {ism.title()} biz Alini kutayapmiz.") # quyidagi xabar chiqadi
 
 
 
@@ -113,7 +112,7 @@
 # # Kod_7
 # yil = int(input("Tug'ilgan yilingizni kiriting: "))
 # if 2025-yil < 18: # foydalanuvchining yoshini hisoblaymiz
-#    print(f"Yoshingiz {2023-yil}da ekan.")
+#    print(f"Yoshingiz {2025-yil}da ekan.")
 #    print("Kirish mumkin emas!")
 # else:
 #    print("Xush kelibsiz!")
