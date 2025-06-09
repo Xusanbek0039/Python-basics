@@ -397,7 +397,6 @@
 #            print(f"Kechirasiz, menuda {taom} yo'q")
 # else: # agar ro'yxat bo'sh bo'lsa
 #    print("Savatchangiz bo'sh!")
-# #############################################################################
 # n = int(input("Hurmatli mijoz siz nechta taom buyurtma qilmoqchisiz\t"))
 # menu = ['osh','shashlik','manti','somsa','qozonkabob','tandir','shorva']
 # buyurtmalar = []
