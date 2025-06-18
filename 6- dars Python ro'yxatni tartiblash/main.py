@@ -45,7 +45,7 @@
 
 # # Kod_3
 # cars = ['bmw','mercedes benz', 'volvo', 'general motors', 'tesla', 'audi']
-# cars.sort(reverse=True)
+# cars.sort(reverse=False)
 # print(cars)
 
 
@@ -139,8 +139,12 @@
 
 
 # # Kod_8
-# fruits = 155_555_555
-# print("Elementlar soni:",len(fruits)) # len(fruits) ro'yxat uzunligini qaytaradi
+# fruits = ['pear',
+#           'banana',
+#           'apple',
+#           'watermelon',
+#           'lemon']
+# print("Elementlar soni: ",len(fruits)) # len(fruits) ro'yxat uzunligini qaytaradi
 
 
 
@@ -160,7 +164,7 @@
 
 
 # # Kod_9
-# sonlar = tuple(range(5,20,2)) 
+# sonlar = tuple(range(500000)) 
 # print(sonlar)
 
 
@@ -178,7 +182,7 @@
 
 
 # # Kod_10
-# juft_sonlar = list(range(0,29999999999999999999999999999999999999990,2)) # 0 dan 20 gacha 2 qadam bilan
+# juft_sonlar = list(range(0,20,2)) # 0 dan 20 gacha 2 qadam bilan
 # toq_sonlar = list(range(1,20,2)) # 1 dan 20 gacha 2 qadam bilan
 # print("Juft sonlar: ", juft_sonlar)
 # print("Toq sonlar: ", toq_sonlar)
@@ -201,6 +205,7 @@
 # arzon = min(narhlar)
 # qimmat = max(narhlar)
 # jami = sum(narhlar)
+
 # print("Eng arzon narh ", arzon, ". Eng qimmati ", qimmat, ". Jami: ", jami)
 
 
@@ -221,7 +226,7 @@
 
 # # Kod_12
 # cars = ['bmw','mercedes benz', 'volvo', 'general motors', 'tesla', 'audi']
-# my_cars = cars[0:3] # 0-indeskdan boshlab 3 ta element ajratib olamiz
+# my_cars = cars[1:3] # 0-indeskdan boshlab 3 ta element ajratib olamiz
 # print(my_cars)
 
 
