@@ -6,7 +6,9 @@
 #     "year": 1964,
 #     "rang": "Qora"
 # }
+
 # print(f)
+
 
 
 
@@ -61,10 +63,10 @@
 
 # # # Kod-4
 # f = {
-# "brand": "Ford",
-# "model": "Mustang",
-# "year": 2020,
-# "year": 2025
+#     "brand": "Ford",
+#     "model": "Mustang",
+#     "year": 2020,
+#     "year": 2025
 # }
 # print(len(f))
 
@@ -141,15 +143,15 @@
 
 
 # # Kod_8
-f = {
-"brand": "Ford",
-"electric": False,
-"year": 1964,
-"colors": ["red", "white", "blue"]
-}
+# f = {
+#     "brand": "Ford",
+#     "electric": False,
+#     "year": 1964,
+#     "colors": ["red", "white", "blue"]
+#     }
 
-b = f.keys()
-print(b)
+# b = f.keys()
+# print(b)
 
 
 
@@ -163,11 +165,11 @@ print(b)
 
 # # Kod_9
 # f = {
-# "brand": "Ford",
-# "electric": False,
-# "year": 1964,
-# "colors": ["red", "white", "blue"]
-# }
+#     "brand": "Ford",
+#     "electric": False,
+#     "year": 1964,
+#     "colors": ["red", "white", "blue"]
+#     }
 
 # v = f.values()
 # print(v)
@@ -306,7 +308,7 @@ print(b)
 # f = {
 # "brand": "Ford",
 # "electric": False,
-# "year": 1964,
+# "year ": 1964,
 # "colors": ["red", "white", "blue"]
 # }
 
@@ -423,7 +425,7 @@ print(b)
 #         for rang in e:
 #             print(f"          -{rang}")
 #     else:
-#         print(f"{t} {e}")
+#         print(f"{t.title()} {e}")
 
 
 
