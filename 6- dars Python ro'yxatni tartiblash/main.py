@@ -82,6 +82,7 @@
 
 
 
+
 # # Kod_5
 # mehmonlar = ['Odil', 'Hamid', 'Temur', 'Avazbek', 'Farruh', 'Shamsiddin']
 # print(sorted(mehmonlar, reverse=True))

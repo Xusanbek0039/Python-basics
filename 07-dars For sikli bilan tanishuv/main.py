@@ -6,7 +6,7 @@
 
 # print(Mehmonlar)
 
-
+    
 
 
 
@@ -46,7 +46,9 @@
 # mehmonlar = ['Ali','Vali','Hasan', 'Husan','Olim']
 # for mehmon in mehmonlar:
 #     print(f"Hurmatli {mehmon}, sizni 20 Dekabr kuni nahorga oshga taklif qilamiz")
-#     print("Hurmat bilan, Palonchiyevlar oilasi\n")
+
+
+# print("Hurmat bilan, Palonchiyevlar oilasi\n")
 
 
 
@@ -62,7 +64,7 @@
 # mehmonlar = ['Ali','Vali','Hasan', 'Husan','Olim']
 # for mehmon in mehmonlar:
 #     print(mehmon)
-# print(mehmonlar) # bu qator tsikl tashqarisida bo'lishi kerak edi  
+#     print(mehmonlar) # bu qator tsikl tashqarisida bo'lishi kerak edi  
 
 
 
@@ -128,11 +130,3 @@
 #     dostlar.append(input(f"{n+1}-do'stingizning ismini kiriting: "))
 # for dost in dostlar:
 #     print(dost)
-
-
-
-
-
-
-
-
