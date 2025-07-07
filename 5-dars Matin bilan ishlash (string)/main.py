@@ -1,3 +1,4 @@
-# 1- kod 
-x = "Yashna guLla xUr o'zbekIston"
-print(len(x))
+a = "                  Men banan yoqtirman              "
+print(a.lstrip())
+print(a.rstrip())
+print(a.strip())

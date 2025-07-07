@@ -65,8 +65,8 @@
 # f = {
 #     "brand": "Ford",
 #     "model": "Mustang",
-#     "year": 2020,
-#     "year": 2025
+#     "year": 2025,
+#     "davlat":None
 # }
 # print(len(f))
 
@@ -308,11 +308,11 @@
 # f = {
 # "brand": "Ford",
 # "electric": False,
-# "year ": 1964,
+# "year": 1964,
 # "colors": ["red", "white", "blue"]
 # }
 
-# del f["year"]
+# del f["brand"]
 # print(f)
 
 
