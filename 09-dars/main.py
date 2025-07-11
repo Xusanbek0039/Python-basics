@@ -62,7 +62,7 @@
 #    price = 8000
 #    print(f"Sizga kirish {price} so'm")
 
-# elif yosh <120 :
+# elif yosh < 120 :
 #     price = 15_000
 #     print(f"Sizga kirish {price} so'm")
 
@@ -90,8 +90,9 @@
 #   price = 5000
 # elif yosh<65:
 #    price = 10000
-# elif yosh>=65:
-#    price = 8000   
+# elif yosh>120:
+#    price = 8000
+
 # print(f"Sizga kirish {price} so'm")
 
 
