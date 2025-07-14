@@ -90,7 +90,7 @@
 #   price = 5000
 # elif yosh<65:
 #    price = 10000
-# elif yosh>120:
+# elif yosh<120:
 #    price = 8000
 
 # print(f"Sizga kirish {price} so'm")
@@ -110,7 +110,7 @@
 
 
 # # Kod_5
-# kun = input("Bugun nima kun?>>> ").strip()
+# kun = input("Bugun nima kun?>>> ")
 # if kun.lower() == 'shanba' or kun.lower() == 'yakshanba':
 #    print(f"Bugun {kun.title()}, dam olish kuni.")
    
@@ -170,7 +170,7 @@
 
 
 # # Kod_7
-# kun = input("Bugun nima kun? ")
+# kun = input("Bugun nima kun? ").strip()
 # harorat = float(input("Havo harorati qanday? "))
 
 # if (kun.lower()=='shanba' or kun.lower()=='yakshanba') and harorat >= 30:
@@ -178,8 +178,10 @@
    
 # elif (kun.lower()=='shanba' or kun.lower()=='yakshanba') and harorat < 30:
 #    print("Uyda dam olamiz!")
+# elif kun.lower() == 'dushanba' or kun.lower() == 'seshanba' or kun.lower() == 'chorshanba' or kun.lower() == 'payshanba' or kun.lower() == "juma":
+#     print("Bugun ish kuni") 
 # else:
-#    print("Bugun ish kuni!")
+#    print("Xafta kunini xato kiritdingiz!")
 
 
 
@@ -404,3 +406,46 @@
 # for i in range(0,n):
 #     buyurtma = input(f"{i+1}-buyurtmani kiriting:\t")
 #     buyurtmalar.append(buyurtma.lower())
+
+
+
+
+
+
+
+"""
+Masala
+Foydalanuvchidan 10 ta o‘quvchining ballarini kiriting (0 dan 100 gacha). 
+Har bir o‘quvchining bahosini quyidagicha chiqarib bering:
+
+90–100 → “A'lo”
+80–89 → “Yaxshi”
+70–79 → “Qoniqarli”
+60–69 → “O‘rtacha”
+0–59 → “Qoniqarsiz”
+
+Lekin qo‘shimcha shartlar mavjud:
+
+Agar o‘quvchi 100 ball olsa, u holda: "Siz mukammalsiz!" deb chiqsin.
+
+Agar ball manfiy yoki 100 dan katta bo‘lsa, "Noto‘g‘ri ball kiritildi" 
+deb chiqsin va keyingisiga o‘tsin.
+
+"""
+for n in range(10):
+    ism = input(f"{n+1}-o`quvchi ismini kiriting: ")
+    ball = int(input(f"{ism.title()} bahosini kiriting: "))
+    if ball<0 or ball>100:
+        print("Noto`g`ri son kiritildi")
+    elif ball <=59:
+        print("Qoniqarsiz")
+    elif ball <=69:
+        print("O`rtacha")
+    elif ball <=79:
+        print("Qoniqarli")
+    elif ball <=89:
+        print("Yaxshi")
+    elif ball <=99:
+        print("A'lo")
+    else:
+        print("Siz mukammalsiz!")
