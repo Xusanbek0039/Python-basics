@@ -22,9 +22,9 @@
 # # Kod_2
 
 # f = {
-# "brand": "Ford",
-# "model": "Mustang",
-# "year": 1964
+# "brand": "GM",
+# "model": "Cobalt",
+# "year": 2009
 # }
 # print(f["model"])
 
@@ -61,13 +61,15 @@
 
 
 
+
+
 # # # Kod-4
 # f = {
-#     "brand": "Ford",
-#     "model": "Mustang",
+#     "brand": "GM",
+#     "model": "Cobalt",
 #     "year": 2025,
-#     "davlat":None
-# }
+#     "davlat": None
+#     }
 # print(len(f))
 
 
@@ -81,9 +83,9 @@
 
 # # Kod_5
 # f = {
-# "brand": "Ford",
+# "brand": "GM",
 # "electric": False,
-# "year": 1964,
+# "year": 1992,
 # "colors": ["red", "white", "blue"]
 # }
 # print(type(f))
@@ -99,12 +101,12 @@
 
 # # KOd_6
 # f = {
-# "brand": "Ford",
+# "brand": "GM",
 # "electric": False,
 # "year": 1964,
 # "colors": ["red", "white", "blue"]
 # }
-# x= f["year"]
+# x = f["year"]
 # print(x)
 
 
@@ -121,11 +123,11 @@
 
 # # Kod_7
 # f = {
-# "brand": "Ford",
+# "brand": "GM",
 # "electric": False,
-# "year": 1964,
+# "year": 1992,
 # "colors": ["red", "white", "blue"],
-# "model": None
+# "model": "Cobalt"
 # }
 # c = f.get("model")
 # print(c)
@@ -144,10 +146,12 @@
 
 # # Kod_8
 # f = {
-#     "brand": "Ford",
-#     "electric": False,
-#     "year": 1964,
-#     "colors": ["red", "white", "blue"]
+#     "brand": "GM",
+#     "model":"Malibu",
+#     "mator": "2.4 Turbo",
+#     "electric": None,
+#     "yil": 2013,
+#     "ranglar": ["qizil", "oq", "ko'k","qora"]
 #     }
 
 # b = f.keys()
@@ -222,6 +226,9 @@
 # if "brand" in f:
 #     print("Brand nomli kalit mavjud!")
 #     # update() lug'atni eski qiymat bilan alishtirish:
+# else:
+#     print("Unday kalit mavjude emas!")
+    
 # f.update({"year": 2023})
 # print(f["year"])
 
@@ -267,8 +274,9 @@
 # "colors": ["red", "white", "blue"]
 # }
 
-# f.pop("brand")
+# x = f.pop("brand")
 # print(f)
+# print(x)
 
 
 
