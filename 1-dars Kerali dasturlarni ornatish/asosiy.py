@@ -1,5 +1,5 @@
 ismlar = []
-
+"""_summary_"""
 # 10 ta ismni kiritamiz
 for i in range(10):
     ism = input(f"Ism kiriting ({i+1}/10): ")
