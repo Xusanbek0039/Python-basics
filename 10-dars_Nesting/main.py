@@ -33,7 +33,11 @@
 
 
 
-# student = {"name": "Aziza", "age": 18, "lang": "Python"}
+# student = {
+#     "name": "Aziza", 
+#     "age": 18, 
+#     "lang": "Python"
+#     }
 
 # for k in student:                 # kalitlar
 #     print(k, student[k])
@@ -41,9 +45,13 @@
 # for k, v in student.items():      # juftlik
 #     print(f"{k:5} → {v}")
 
+# #  faqat kalilarni chiqarish
+# for i in student.keys():
+#     print(i)
 
-
-
+# #  faqat qiymatlar chiqarish
+# for i in student.values():
+#     print(i)
 
 
 
@@ -66,17 +74,20 @@
 
 
 
-# school = {
-#     "1‑A": {
-#         "class_teacher": "S. Karimova", 
-#         "pupils": 32
-#         },
-#     "1‑B": {
-#         "class_teacher": "N. Usmonov",
-#         "pupils": 29
-#         }
-# }
-# print(school["1‑B"]["class_teacher"])   # "N. Usmonov"
+school = {
+    "1‑A": {
+        "class_teacher": "S. Karimova", 
+        "pupils": 32,
+        "class_com": "B.Usmonov"
+        },
+    "1‑B": {
+        "class_teacher": "N. Usmonov",
+        "pupils": 29,
+        "class_com":"A.Qarshiyev"
+        }
+}
+
+print(school["1‑B"]["class_com"])   # "N. Usmonov"
 
 
 
