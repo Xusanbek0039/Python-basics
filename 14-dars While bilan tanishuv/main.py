@@ -1,8 +1,9 @@
 #Kod_1
 # i = 1   
-# while i <= 6:
+# while i <= 100:
 #     print(i)
 #     i=i+1
+
 
 
 
@@ -97,7 +98,7 @@
 # Kod_5     break operatori for da 
 # sonlar = list(range(1,100))
 # for son in sonlar: 
-#     if son == 9: # son 5 ga teng bo'lsa kod to'xtaydi
+#     if son == 90: # son 5 ga teng bo'lsa kod to'xtaydi
 #         break
 #     print(f"{son} ning kvadrati {son**2} ga teng")
 
@@ -193,11 +194,10 @@
 
 
 # Kod_10
-# son = 1
-# while son<100: 
-#     son += 1
-#     if son%2!=0:
-#         continue
-#     else:
-#         print(son)
-
+son = 1
+while son<100: 
+    son += 1
+    if son%2!=0:
+        continue
+    else:
+        print(son)
