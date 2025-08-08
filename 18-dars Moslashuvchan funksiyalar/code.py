@@ -7,12 +7,12 @@
 
 
 # 1-code 
-# Funksiya yaratamiz
+# Funksiya yaratamiz argument
 # def yigindi(*son):
 #     return sum(son)
 
-# print(yigindi(1, 2, 3, 5))      # Natija: 6
-# print(yigindi(10, 20, 30, 40))  # Natija: 100
+# print(yigindi(1, 2, 3, 5))      
+# print(yigindi(10, 20, 30, 40))  
 
 
 
@@ -20,13 +20,25 @@
 
 
 
-# 2-code 
+
+
+
+
+
+# 2-code  karguments
 # def foydalanuvchi_malumotlari(**qiymat):
 #     for kalit, qiymat in qiymat.items():
-#         print(f"{kalit}: {qiymat}")
+#         print(f"{kalit.title()}: {qiymat}")
 
 # # Funksiyani chaqiramiz
 # foydalanuvchi_malumotlari(ism="Ali", yosh=25, shahar="Toshkent", Familiya="O'tkirov")
+
+
+
+
+
+
+
 
 
 
@@ -45,7 +57,7 @@
 #         print(f"{kalit}: {qiymat}")
 
 # # Funksiyani chaqiramiz
-# mahsulot_tavsifi("Telefon", "Yuqori sifat", "Tezkor ishlash", rang="Qora", narx="500$")
+# mahsulot_tavsifi("Apple iPhone 13 Pro Max", "Yuqori sifat", "Tezkor ishlash","Yangicha dizayn", rang="Qora", narx="1100$")
 
 
 
@@ -68,7 +80,7 @@
 # print(kopaytir(2, 3, 4))  # Natija: 24
 # print(kopaytir(5, 10))    # Natija: 50
 # print(kopaytir(1, 2, 3, 4, 5,5))  # Natija: 120
-
+# print(kopaytir(5, 5, 7, 4)) 
 
 
 
@@ -176,3 +188,5 @@
 
 # print(hisobla(yigindi, 10, 5))  # Natija: 15
 # print(hisobla(ayirma, 10, 5))   # Natija: 5
+
+# print(hisobla(ayirma, 180, 45, 10)) 
