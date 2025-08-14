@@ -5,8 +5,8 @@
 # GitHub: https://github.com/Xusanbek0039
 
 # # 1-code
-from salom import salom_ber
-print(salom_ber("Husan"))
+# from salom import salom_ber
+# print(salom_ber("Husan"))
 
 
 
@@ -20,6 +20,8 @@ print(salom_ber("Husan"))
 # 2-code
 # import salom
 # print(salom.salom_ber("Husan"))
+
+
 
 
 
@@ -52,7 +54,7 @@ print(salom_ber("Husan"))
 
 # 3-code
 # import math 
-# print(math.sqrt(16))  # 4.0
+# print(math.sqrt(25))  # 4.0
 
 
 
@@ -135,7 +137,7 @@ print(salom_ber("Husan"))
 # print(raqamlar)
 
 # # 10 dan 100 gacha 3 ta tasodifiy son olish
-# print(random.sample(range(10, 100), 2))
+# print(random.sample(range(10, 100), 3))
 
 # # 0 va 1 orasida tasodifiy son chiqarib, ehtimollikni tekshirish
 # n = random.random()
@@ -162,10 +164,10 @@ print(salom_ber("Husan"))
 
 
 # 6-code
-# from datetime import datetime, timedelta
+from datetime import datetime, timedelta
 
 # # Joriy sana va vaqt
-# hozir = datetime.now()
+hozir = datetime.now()
 # print("Hozirgi vaqt:", hozir)
 
 # # # Faqat sana yoki vaqtni olish
@@ -176,7 +178,7 @@ print(salom_ber("Husan"))
 # print("Formatlangan vaqt:", hozir.strftime("%Y-%m-%d %H:%M"))
 
 # # # Belgilangan sanani yaratish
-# tugilgan_kun = datetime(2008, 4, 25)
+tugilgan_kun = datetime(2008, 4, 25)
 # print("Tug‘ilgan kun:", tugilgan_kun)
 
 # # # Oradan 7 kun o'tkazish
@@ -213,7 +215,7 @@ print(salom_ber("Husan"))
 
 
 # 7-code
-# import os
+import os
 
 # Joriy ishchi katalogni olish
 # print("Joriy katalog:", os.getcwd())
@@ -245,7 +247,7 @@ print(salom_ber("Husan"))
 # print("Foydalanuvchi nomi:", os.getenv("USERNAME") or os.getenv("USER"))
 
 # # Dasturdan chiqish
-# os.exit(0)  # Ushbu qatorda dastur to‘xtaydi
+# os._exit(0)  # Ushbu qatorda dastur to‘xtaydi
 
 # # Buyruq qatori komandalarini bajarish
 # os.system("echo Salom, dunyo!")
@@ -255,7 +257,7 @@ print(salom_ber("Husan"))
 # import os
 
 # # Fayl yo'lini olish va tekshirish
-# fayl_nomi = r"C:\Users\User\OneDrive\Desktop\Python-asoslar\19-dars Modullar\logo.png"
+# fayl_nomi = r"C:\Users\Husan Suyunov\Desktop\GitHub Repolar\Python-basics\19-dars Modullar\logo.png"
 
 # if os.path.exists(fayl_nomi):
 #     print("Fayl mavjud! Ochilmoqda...")
@@ -284,7 +286,7 @@ print(salom_ber("Husan"))
 
 # # 8-code
 # # Python versiyasini aniqlash
-# import sys
+import sys
 # print("Python versiyasi:", sys.version)
 
 
@@ -305,6 +307,6 @@ print(salom_ber("Husan"))
 # Qiziq code ishga tushursangiz VS Code yopiladi fayllariz saqlanganiga ishonch xosil qiling!!!
 # import os
 
-# os.system("taskkill /IM code.exe /F")  # VS Code-ni yopish
+os.system("taskkill /IM code.exe /F")  # VS Code-ni yopish
 # =======
 # os.system("taskkill /IM code.exe /F")  # VS Code-ni yopish

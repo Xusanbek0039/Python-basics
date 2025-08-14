@@ -2,12 +2,10 @@
 
 
 # def salom_ber():
-#     """Salom beruvchi funksiya"""
+#     """Salom beruvchi funksiya    """
 #     print("Assalomu alaykum!")
 
 # salom_ber()
-
-
 
 
 
@@ -66,14 +64,14 @@
 
 
 
-# Kod_4
-# def salom_ber(ism):
-#     """Fodyalanuvchi ismini qabul qilib, 
-#         unga salom beruvchi funksiya"""
-#     print(f"Assalomu alaykum, hurmatli {ism.title()}!")
-
-
-# print(salom_ber.__doc__)
+# Kod_4                                                    
+# def salom_ber(ism):                                         
+#     """Fodyalanuvchi ismini qabul qilib,                   
+#         unga salom beruvchi funksiya"""                     
+#     print(f"Assalomu alaykum, hurmatli {ism.title()}!")      
+                                                                
+                                                             
+# print(salom_ber.__doc__)                                   
 
 
 
@@ -124,6 +122,7 @@
 
 
 
+
 # kod_7
 # def toliq_ism(ism, familiya):
 #     """Foydalanuvchi ism va familiyasini jamlab chiqaruvchi funksiya"""
@@ -147,7 +146,7 @@
 #     """Foydalanuvchi yoshini hisoblaydigan dastur"""
 #     print(f"{ism.title()} {2025-tugilgan_yil} yoshda")
 
-# yosh_hisobla('olim', 1997)
+# # yosh_hisobla('olim', 1997)
 # # yosh_hisobla(1997, 'olim')
 
 
