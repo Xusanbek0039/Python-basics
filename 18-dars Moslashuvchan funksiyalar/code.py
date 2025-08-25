@@ -48,7 +48,7 @@
 
 # 3-code 
 # def mahsulot_tavsifi(nomi, *args, **kwargs):
-#     print(f"Mahsulot: {nomi}")
+#     # print(f"Mahsulot: {nomi}")
     
 #     for xususiyat in args:
 #         print(f"- {xususiyat}")
@@ -57,7 +57,9 @@
 #         print(f"{kalit}: {qiymat}")
 
 # # Funksiyani chaqiramiz
-# mahsulot_tavsifi("Apple iPhone 13 Pro Max", "Yuqori sifat", "Tezkor ishlash","Yangicha dizayn", rang="Qora", narx="1100$")
+# mahsulot_tavsifi("Apple iPhone 13 Pro Max", "Yuqori sifat",\
+#                 "Tezkor ishlash","Yangicha dizayn", "Yangicha batareka",rang="Qora",\
+#                  narx="1100$",camera= "Nano camera")
 
 
 
@@ -81,6 +83,7 @@
 # print(kopaytir(5, 10))    # Natija: 50
 # print(kopaytir(1, 2, 3, 4, 5,5))  # Natija: 120
 # print(kopaytir(5, 5, 7, 4)) 
+# print(kopaytir(9,5,10,7,8,2)) 
 
 
 
@@ -190,3 +193,15 @@
 # print(hisobla(ayirma, 10, 5))   # Natija: 5
 
 # print(hisobla(ayirma, 180, 45, 10)) 
+
+
+
+
+
+
+
+def doira(radius):
+    diamter = radius*2
+    PI = 3.14
+    print(f"{radius} ga teng bo'lgan doira yuzasi {diamter*PI} ga teng")
+    print(f"{radius} ga teng bo'lgan doira uzunligi {2*diamter*PI} ga teng")
