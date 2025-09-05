@@ -88,34 +88,25 @@ class Inson:
         self.yosh = yosh
         self.ism = ism
         self.familiya = familiya
-
     def salom_ber(self):
         print(f"Salom, men {self.ism} {self.familiya} Yoshi: {self.yosh}")
 
 class Talaba(Inson):
     def __init__(self, ism, kurs,familiya,yosh):
-        super().__init__(ism)  # ota classni chaqiryapmiz
+        super().__init__(ism,familiya,yosh)  # ota classni chaqiryapmiz
         self.kurs = kurs
-        super().__init__(familiya)
-        super().__init__(yosh)
-
-
     def info(self):
         print(f"{self.ism} {self.familiya} {self.kurs}-kurs talabasi\nYoshi: {self.yosh}")
 
 class Oqituvchi(Inson):
     def __init__(self, ism, working,familiya,yosh):
-        super().__init__(ism)
-        super().__init__(familiya)
-        super().__init__(yosh)
+        super().__init__(ism,familiya,yosh)  # ota classni chaqiryapmiz
         self.working = working
-
     def info(self):
         print(f"{self.ism} {self.familiya} {self.working}-kurs o'qituvchisi. \nYoshi: {self.yosh}")
-
-
-
 oqituvchi = Oqituvchi("Botir","Ona tili","Axmatov",45)
+oqituvchi.salom_ber()
+oqituvchi.info()
 
 
 
