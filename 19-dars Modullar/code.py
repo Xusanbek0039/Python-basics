@@ -5,8 +5,10 @@
 # GitHub: https://github.com/Xusanbek0039
 
 # # 1-code
-# from salom import salom_ber
-# print(salom_ber("Husan"))
+
+
+from salom import salom_ber
+print(salom_ber("Husan"))
 
 
 
@@ -54,7 +56,7 @@
 
 # 3-code
 # import math 
-# print(math.sqrt(25))  # 4.0
+# print(math.sqrt(25))  # 5.0
 
 
 
@@ -73,7 +75,7 @@
 
 
 # 4-code
-# import math
+import math
 
 # Doiraning yuzasini hisoblash
 # radius = 5
@@ -96,7 +98,7 @@
 # # print(math.radians(180))  # 3.141592653589793
 
 # # Sonning butun qismini olish
-# print(math.floor(3.7))  # 3
+# print(math.floor(3.9))  # 3
 # print(math.ceil(3.1))   # 4
 
 
@@ -116,7 +118,7 @@
 
 
 # # 5-code
-# import random
+import random
 
 # 1 dan 10 gacha tasodifiy butun son
 # print(random.randint(1, 10))
@@ -178,7 +180,7 @@ hozir = datetime.now()
 # print("Formatlangan vaqt:", hozir.strftime("%Y-%m-%d %H:%M"))
 
 # # # Belgilangan sanani yaratish
-tugilgan_kun = datetime(2008, 4, 25)
+# tugilgan_kun = datetime(2008, 4, 25)
 # print("Tug‘ilgan kun:", tugilgan_kun)
 
 # # # Oradan 7 kun o'tkazish
@@ -215,7 +217,7 @@ tugilgan_kun = datetime(2008, 4, 25)
 
 
 # 7-code
-import os
+# import os
 
 # Joriy ishchi katalogni olish
 # print("Joriy katalog:", os.getcwd())
@@ -286,7 +288,7 @@ import os
 
 # # 8-code
 # # Python versiyasini aniqlash
-import sys
+# import sys
 # print("Python versiyasi:", sys.version)
 
 
@@ -307,6 +309,6 @@ import sys
 # Qiziq code ishga tushursangiz VS Code yopiladi fayllariz saqlanganiga ishonch xosil qiling!!!
 # import os
 
-os.system("taskkill /IM code.exe /F")  # VS Code-ni yopish
+# os.system("taskkill /IM code.exe /F")  # VS Code-ni yopish
 # =======
 # os.system("taskkill /IM code.exe /F")  # VS Code-ni yopish
