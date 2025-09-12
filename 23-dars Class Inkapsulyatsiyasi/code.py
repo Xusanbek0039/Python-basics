@@ -1,22 +1,23 @@
-# class Oquvchi:
-#     def __init__(self, ism):
-#         self.ism = ism
-#         self.__baho = []  # inkapsulatsiya qilingan maxfiy atribut
+class Oquvchi:
+    def __init__(self, ism):
+        self.ism = ism
+        self.__baho = []  # inkapsulatsiya qilingan maxfiy atribut
 
-#     def baho_qoshish(self, ball):
-#         if 1 <= ball <= 5:
-#             self.__baho.append(ball)
-#         else:
-#             print("Xatolik: Baholar faqat 1 dan 5 gacha bo'lishi mumkin.")
+    def baho_qoshish(self, ball):
+        if 1 <= ball <= 5: # faqat 1 dan 5 gacha bo'lgan baholarni qabul qiladi
+            self.__baho.append(ball)
+        else:
+            print("Xatolik: Baholar faqat 1 dan 5 gacha bo'lishi mumkin.")
 
-#     def o_rtalama_baho(self):
-#         if len(self.__baho) == 0:
-#             return 0
-#         return sum(self.__baho) / len(self.__baho)
+    def o_rtalama_baho(self):
+        if len(self.__baho) == 0:
+            return 0
+        return sum(self.__baho) / len(self.__baho)
 
-#     def barcha_baholar(self):
-#         return self.__baho
+    def barcha_baholar(self):
+        return self.__baho
 
+# 1 <= 4 <= 5
 
 # ali = Oquvchi("Ali")
 # ali.baho_qoshish(4)
@@ -171,3 +172,11 @@
 
 # print(f"📋 {jamshid.ism}ning topshiriqlari:")
 # jamshid.holat()
+
+
+
+
+
+
+
+
