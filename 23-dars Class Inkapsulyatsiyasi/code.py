@@ -1,37 +1,29 @@
-class Oquvchi:
-    def __init__(self, ism):
-        self.ism = ism
-        self.__baho = []  # inkapsulatsiya qilingan maxfiy atribut
+# class Oquvchi:
+#     def __init__(self, ism):
+#         self.ism = ism
+#         self.__baho = []  # inkapsulatsiya qilingan maxfiy atribut
 
-    def baho_qoshish(self, ball):
-        if 1 <= ball <= 5: # faqat 1 dan 5 gacha bo'lgan baholarni qabul qiladi
-            self.__baho.append(ball)
-        else:
-            print("Xatolik: Baholar faqat 1 dan 5 gacha bo'lishi mumkin.")
+#     def baho_qoshish(self, ball):
+#         if 1 <= ball <= 5: # faqat 1 dan 5 gacha bo'lgan baholarni qabul qiladi
+#             self.__baho.append(ball)
+#         else: # noto'g'ri baho uchun xatolik xabari
+#             print("Xatolik: Baholar faqat 1 dan 5 gacha bo'lishi mumkin.")
 
-    def o_rtalama_baho(self):
-        if len(self.__baho) == 0:
-            return 0
-        return sum(self.__baho) / len(self.__baho)
+#     def o_rtalama_baho(self):
+#         if len(self.__baho) == 0:
+#             return 0
+#         return sum(self.__baho) / len(self.__baho)
 
-    def barcha_baholar(self):
-        return self.__baho
-
-# 1 <= 4 <= 5
+#     def barcha_baholar(self):
+#         return self.__baho
 
 # ali = Oquvchi("Ali")
-# ali.baho_qoshish(4)
 # ali.baho_qoshish(5)
-# ali.baho_qoshish(2)
+# ali.baho_qoshish(5)
+# ali.baho_qoshish(3)
 
 # print("Barcha baholar:", ali.barcha_baholar())
 # print("O‘rtacha baho:", ali.o_rtalama_baho())
-
-
-
-
-
-
 
 
 
@@ -69,6 +61,7 @@ class Oquvchi:
 # kutubxona.kitob_qoshish("Matematika 10-sinf")
 # kutubxona.kitob_qoshish("Python Dasturlash")
 # kutubxona.kitob_qoshish("Fizika asoslari")
+# kutubxona.kitob_qoshish("Ona tili va adabiyot")
 
 # print("\n📚 Kutubxonadagi kitoblar:")
 # kutubxona.kitoblar_royxati()
