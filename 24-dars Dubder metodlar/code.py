@@ -72,6 +72,7 @@
 
 
 
+
 # class Sinf:
 #     def __init__(self):
 #         self.oquvchilar = ["Ali", "Laylo", "Sardor"]
@@ -82,7 +83,6 @@
 # sinf = Sinf()
 # sinf[0] = "Miraziz"
 # print(sinf.oquvchilar)
-
 
 
 
@@ -164,7 +164,7 @@
 #         return self.oquvchilar
 
 # sinf = Sinf()
-# print(sinf - 1)
+# print(sinf - 0)
 
 
 
@@ -194,6 +194,9 @@
 
 #     def __gt__(self, other):
 #         return self.baho > other.baho
+    
+#     def __dir__(self):
+#         pass
 
 # o1 = Oquvchi("Ali", 4)
 # o2 = Oquvchi("Sardor", 5)
