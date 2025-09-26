@@ -11,7 +11,10 @@
 # with open('malumot.txt', 'r', encoding='utf-8') as fayl:
 #     matn = fayl.read()
 #     print(matn)
-
+    
+# doxc, pdf = word 
+# xls = excell
+# ppt = power point 
 
 
 
@@ -24,7 +27,8 @@
 
 # Faylga yangi matn yozamiz (avvalgi ma'lumot o‘chib ketadi)
 # with open('malumot.txt', 'w', encoding='utf-8') as fayl:
-#     fayl.write("Salom, bu yangi yozuv!")
+#     x = input("Matin kiriting: ")
+#     fayl.write(x)
 
 
 
@@ -39,7 +43,8 @@
 
 # # Faylga matn qo‘shamiz (avvalgilar o‘chmaydi)
 # with open('malumot.txt', 'a', encoding='utf-8') as fayl:
-#     fayl.write("\nYana bir qator qo‘shildi.")
+#     x = input("Matin kiriting: ")
+#     fayl.write(x)
 
 
 
@@ -103,6 +108,14 @@
 
 
 
+# {
+#     "ism":"Husan",
+#     "familiya":"Suyunov"
+# }
+
+
+
+
 
 # with open('malumot.json', 'w', encoding='utf-8') as fayl:
 #     fayl.write("Bu json yozuv!")
@@ -116,4 +129,4 @@
 
 
 
-# # Diqqat! Pickle fayllarini faqat ishonchli manbadan o‘qing!
+# Diqqat! Pickle fayllarini faqat ishonchli manbadan o‘qing!
