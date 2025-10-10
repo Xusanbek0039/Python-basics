@@ -12,4 +12,5 @@ class Talaba:
         Talabaning salom beruvchi metodi.
         Return qiymat sifatida ismni kiritib, salomni qaytaradi.
         """
-        return f"Salom, men {self.ism}man!"
+        return f"Salom, men {self.ism} {self.yosh} yoshdaman!"
+    

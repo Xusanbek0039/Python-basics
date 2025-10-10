@@ -7,3 +7,4 @@ def toq_mi(son):
     return son % 2 == 1
 
 
+# print(toq_mi(12))  # Funksiyaning docstringini chiqarish

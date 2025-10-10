@@ -11,7 +11,7 @@ class TestToqMi(unittest.TestCase):
 
     def test_juft_son(self):
         # 4 soni juft, shuning uchun False bo'lishi kerak
-        self.assertFalse(toq_mi(4))
+        self.assertFalse(toq_mi(5))
 
     def test_nol(self):
         # 0 ham juft son hisoblanadi

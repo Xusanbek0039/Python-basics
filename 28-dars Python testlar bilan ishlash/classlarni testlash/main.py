@@ -27,7 +27,7 @@ class TestTalaba(unittest.TestCase):
         Talabaning salom_ber() metodining qaytargan natijasi to'g'ri ekanligini tekshirish.
         """
         natija = self.talaba.salom_ber()
-        self.assertEqual(natija, "Salom, men Ali man!")
+        self.assertEqual(natija, "Salom, men Ali 20 yoshdaman!")
 
 if __name__ == "__main__":
     unittest.main()
